@@ -1,1 +1,27 @@
-# sarangn
+CREATE TABLE application_form (
+    id SERIAL PRIMARY KEY,
+    full_name VARCHAR(255),
+    date_of_birth DATE,
+    gender VARCHAR(50),
+    nationality VARCHAR(100),
+    marital_status VARCHAR(50),
+    address TEXT,
+    contact_details TEXT,
+    highest_degree VARCHAR(255),
+    other_degrees TEXT,
+    marks VARCHAR(50),
+    current_job TEXT,
+    previous_jobs TEXT,
+    skills TEXT,
+    certifications TEXT,
+    exam_center VARCHAR(100),
+    category VARCHAR(100),
+    photographs BYTEA,
+    signature BYTEA,
+    id_proof TEXT,
+    declaration TEXT,
+    reference_info TEXT, 
+    previous_applications TEXT,
+    special_needs TEXT,
+    payment_proof TEXT
+);
